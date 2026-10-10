@@ -82,12 +82,12 @@ else
 fi
 
 # Step 6: Install Python requirements
-echo "[6/8] Installing Python dependencies from stuff/requirements.txt..."
+echo "[6/8] Installing Python dependencies from requirements.txt..."
 if [ -f "requirements.txt" ]; then
     $PY -m pip install --upgrade pip
-    $PY -m pip install -r stuff/requirements.txt
+    $PY -m pip install -r requirements.txt
 else
-    echo "Error: stuff/requirements.txt not found!"
+    echo "Error: requirements.txt not found!"
     exit 1
 fi
 
