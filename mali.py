@@ -27,7 +27,7 @@ def generate_card(bin_format):
 def ui():
     os.system('clear')
     # Top Branding
-    print("\033[1;33m" + "By SmSystems".center(60))
+    print("\033[1;33m" + "By Babasab".center(60))
     print("\033[1;35m" + "="*60)
     print("  ██████╗███╗   ███╗     ██████╗ ███████╗███╗   ██╗")
     print("  ██╔════╝████╗ ████║    ██╔════╝ ██╔════╝████╗  ██║")
@@ -38,8 +38,8 @@ def ui():
     print("\033[1;36m" + "           >> ULTIMATE CARD GENERATOR v3.0 <<")
     print("\033[1;35m" + "="*60)
     
-    print("\033[1;32m [Dev: By SmSystems] \033[0m".ljust(30) + "\033[1;33m [DONATE BTC] \033[0m")
-    print("\033[1;34m TG: t.me/SmSystems01 \033[0m".ljust(25) + "\033[1;37m bc1qhcuka00nes3cvhc3uzzu9rcqtvwd5ju686c3gg \033[0m")
+    print("\033[1;32m [Dev: Babasab] \033[0m".ljust(30) + "\033[1;33m [DONATE BTC] \033[0m")
+    print("\033[1;34m Babasab \033[0m".ljust(25) + "\033[1;37m bc1qhcuka00nes3cvhc3uzzu9rcqtvwd5ju686c3gg \033[0m")
     print("\033[1;35m" + "-"*60 + "\033[0m")
 
 def start_gen():
@@ -97,9 +97,10 @@ def start_gen():
         print(f"\033[1;32m [SUCCESS] {amount} Cards Saved!")
         print(f" [PATH] {file_path}")
         print(f" [TIME] {round(end_time - start_time, 2)} Seconds")
-        print(f" \033[1;33mSupport: bc1qhcuka00nes3cvhc3uzzu9rcqtvwd5ju686c3gg \033[0m")
+        print(f" \033[1;33mSupport: service \033[0m")
         print("\033[1;35m" + "="*60 + "\033[0m")
-        print("\033[1;33m" + "By SmSystems".center(60) + "\033[0m")
+
+     print("\033[1;33m" + "By Babasab".center(60) + "\033[0m")
 
     except PermissionError:
         print("\033[1;31m[!] Error: Storage Permission Denied!\033[0m")
