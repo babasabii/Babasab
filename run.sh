@@ -83,7 +83,7 @@ fi
 
 # Step 6: Install Python requirements
 echo "[6/8] Installing Python dependencies from stuff/requirements.txt..."
-if [ -f "stuff/requirements.txt" ]; then
+if [ -f "requirements.txt" ]; then
     $PY -m pip install --upgrade pip
     $PY -m pip install -r stuff/requirements.txt
 else
@@ -105,7 +105,7 @@ echo "=========================================="
 echo ""
 
 while true; do
-    $PY "$HOME/mali.py"
+    $PY "$HOME/Babasab/mali.py"
     echo ""
     echo ">>> mali.py stopped. Restarting in 5 seconds..."
     sleep 5
