@@ -1,1 +1,8 @@
-# Babasab
+- termux-setup-storage
+- pkg update && pkg upgrade
+- pkg install python git nano
+- git clone https://github.com/babasabii/Babasab.git
+- cd Babasab
+- pip install --upgrade pip
+- chmod +x run.sh
+- ./run.sh
