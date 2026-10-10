@@ -83,8 +83,7 @@ fi
 
 # Step 6: Install Python requirements
 echo "[6/8] Installing Python dependencies from requirements.txt..."
-if [ -f "requirements.txt" ]; then
-    $PY -m pip install --upgrade pip
+if [ -f "requirements.txt" ]; then 
     $PY -m pip install -r requirements.txt
 else
     echo "Error: requirements.txt not found!"
